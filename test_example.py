@@ -2,5 +2,11 @@ def test_first():
     assert 3 > 1, "Условие теста один не подтвердилось"
 
 
-def test_second_new():
+def test_second():
     assert 5 == 5, "Условие теста два не подтвердилось"
+
+
+def test_third_new_super():
+    assert 5 == 5, "Условие 1 теста 3 не подтвердилось"
+    assert 10 > 5, "Условие 2 теста 3 не подтвердилось"
+

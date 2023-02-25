@@ -4,3 +4,7 @@ def test_first():
 
 def test_second():
     assert 5 == 5, "Условие теста два не подтвердилось"
+
+
+def test_third():
+    assert 10 == 10, "Условие третьего теста не подтвердилось"
